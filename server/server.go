@@ -9,9 +9,8 @@ import (
 )
 
 type Server struct {
-	IP         net.IP
-	Port       string
-	Connection net.Conn
+	IP   net.IP
+	Port string
 }
 
 func NewServer() *Server {
